@@ -6,6 +6,8 @@
 
 <struts>
     <package name="ssh" namespace="/" extends="struts-default">
-
+            <global-allowed-methods>regex:.*</global-allowed-methods>
+            <action name="product_*" method="{1}" class="productAction">
+            </action>
     </package>
 </struts>

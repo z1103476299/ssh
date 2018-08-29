@@ -16,6 +16,7 @@
           <element id="file-copy" path="D:/Java/各种jar包/c3p0 包/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar" />
           <element id="file-copy" path="D:/Java/各种jar包/struts2-spring-plugin-2.3.20.jar" />
           <element id="file-copy" path="D:/Java/MySql/mysql-connector-java-5.1.18-bin.jar" />
+          <element id="file-copy" path="D:/Java/各种jar包/spring-framework-4.2.4.RELEASE/libs/spring-web-4.2.4.RELEASE.jar" />
         </element>
       </element>
     </root>

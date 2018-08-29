@@ -21,11 +21,17 @@
       </facet>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="ApplicationContext" removed="false">
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+        </fileset>
+      </configuration>
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="sessionFactory" />
+        </datasource-map>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -80,6 +86,15 @@
       <library>
         <CLASSES>
           <root url="jar://D:/Java/MySql/mysql-connector-java-5.1.18-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Java/各种jar包/spring-framework-4.2.4.RELEASE/libs/spring-web-4.2.4.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
